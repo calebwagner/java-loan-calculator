@@ -5,4 +5,5 @@ public class Main {
         int wage = employee.calculateWage(10);
         System.out.println(wage);
     }
+
 }
