@@ -2,10 +2,10 @@ public abstract class UIControl {
 
     private boolean isEnabled = true;
 
-    public UIControl(boolean isEnabled) {
-        this.isEnabled = isEnabled;
-        System.out.println("UI Control");
-    }
+//    public UIControl(boolean isEnabled) {
+//        this.isEnabled = isEnabled;
+//        System.out.println("UI Control");
+//    }
 
     public void render() {};
 
