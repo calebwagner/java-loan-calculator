@@ -1,5 +1,6 @@
 public class Dragger {
-    public void drag(Draggable draggable) {
+    public void drag(UIWidget draggable) {
         draggable.drag();
+        draggable.resize(1);
     };
 }
